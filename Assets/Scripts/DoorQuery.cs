@@ -43,6 +43,11 @@ public class DoorQuery : MonoBehaviour
             should_be_active = activator.GetComponent<StandingButtonActivator>().RequestState();
         }
 
+        if (activator_type == 3)
+        {
+            should_be_active = activator.GetComponent<TimedButtonActivator>().RequestState();
+        }
+
         if (should_be_active == true && is_inverted == false)
         {
             transform.position = active_location;
