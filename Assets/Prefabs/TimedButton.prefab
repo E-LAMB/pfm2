@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 2762552876855369539}
   - component: {fileID: 5882485536943564081}
   - component: {fileID: 287692123220062066}
+  - component: {fileID: 8287108279116011093}
   m_Layer: 0
   m_Name: HasActivator
   m_TagString: Untagged
@@ -458,3 +459,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.99999994, y: 1, z: 0.99999994}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8287108279116011093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6919759565706933113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a99cfe8bd1c004a9b24cb1a1825b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active_state: 0
+  playerChecker: {fileID: 6688424966948978834}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  prompt_is_what: {fileID: 1136636335876912556}
+  distance_required: 1
+  current_duration: -1
+  maximum_duration: 10
