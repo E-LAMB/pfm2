@@ -1175,6 +1175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Restarter
       objectReference: {fileID: 0}
+    - target: {fileID: 7899932343501100367, guid: 50db5eccf02c469458619bee7db87fbe, type: 3}
+      propertyPath: current_scene
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50db5eccf02c469458619bee7db87fbe, type: 3}
 --- !u!4 &994215157 stripped
