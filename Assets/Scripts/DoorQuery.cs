@@ -20,7 +20,8 @@ public class DoorQuery : MonoBehaviour
     public int activator_type = 0; // What type of activator is it?
     // 1 - Permanent Button
     // 2 - Standing Button
-    // 3 - Timed Button //
+    // 3 - Timed Button 
+    // 4 - Finale Standing Button
 
     void Start()
     {
@@ -46,6 +47,11 @@ public class DoorQuery : MonoBehaviour
         if (activator_type == 3)
         {
             should_be_active = activator.GetComponent<TimedButtonActivator>().RequestState();
+        }
+
+        if (activator_type == 4)
+        {
+            should_be_active = activator.GetComponent<SpecialStandingButtonActivator>().RequestState();
         }
 
         if (should_be_active == true && is_inverted == false)
