@@ -15,6 +15,7 @@ public class DeathBarrier : MonoBehaviour
         
         if (collison.gameObject.tag == target)
         {
+			// Debug.Break();
             UnityEngine.SceneManagement.SceneManager.LoadScene(ownscene);
         }
 
