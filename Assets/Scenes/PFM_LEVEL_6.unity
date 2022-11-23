@@ -356,39 +356,39 @@ MonoBehaviour:
 
     Dan
 
+    Alex
+
+
+
 
     Thank
-    you for being great!
-
-
-
-
-    Thank you to my playtesters:
+    you to my playtesters:
 
     ~ Kody
 
-    ~
-    Alex
+    ~ Jack
 
     ~ Kristine
 
     ~ Ashton
 
-    ~ Everyone else who playtested!
+    ~
+    Radeah
+
+
+    And everyone else!
+
+
+    Thank you for playtesting!
+
+
 
 
     Thank
-    you for playtesting!
+    YOU for
 
-    Your feedback made the game better!
+    participating in PFM...
 
-
-
-
-    Thank YOU
-    for
-
-    participation in PFM...
 
 
 
@@ -425,8 +425,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17
-  m_fontSizeBase: 17
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1052,7 +1052,7 @@ RectTransform:
   m_GameObject: {fileID: 1501968457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.7737, y: 6.7737, z: 6.7737}
+  m_LocalScale: {x: 3.9708788, y: 3.9708788, z: 3.9708788}
   m_Children:
   - {fileID: 1231408098}
   m_Father: {fileID: 1908740515}
@@ -1311,9 +1311,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd44fb6944c5fc146bf6e6971b4c667a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  final_position: {x: -40.009, y: 9.7, z: 15}
+  final_position: {x: -40.009, y: -1, z: 15}
   self: {fileID: 1812027790}
-  max_speed: 2
+  max_speed: 3
 --- !u!1 &1829994433
 GameObject:
   m_ObjectHideFlags: 0
