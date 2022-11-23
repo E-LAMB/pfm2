@@ -7138,6 +7138,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.99999994, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1319835924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4114915970374657127, guid: 938d09703861d4945a605d940373eccc, type: 3}
+  m_PrefabInstance: {fileID: 3801778076456154909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1319835925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319835924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4feb6543616764fb4c3af990ebcea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &1323603090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8720,7 +8737,7 @@ GameObject:
   - component: {fileID: 5083067877419362862}
   - component: {fileID: 1533225252059227492}
   - component: {fileID: 1627710860}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wall__3__1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9687,7 +9704,7 @@ GameObject:
   - component: {fileID: 5355367578842226254}
   - component: {fileID: 4462650834134524574}
   - component: {fileID: 869916493}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wall__15__1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11287,7 +11304,7 @@ GameObject:
   - component: {fileID: 1424553748563016099}
   - component: {fileID: 9039809104469982112}
   - component: {fileID: 1688145639}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wall__11__1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11882,13 +11899,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 30017944049409436, guid: 938d09703861d4945a605d940373eccc, type: 3}
-      propertyPath: speed
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 30017944049409436, guid: 938d09703861d4945a605d940373eccc, type: 3}
       propertyPath: rotationSpeed
-      value: 180
+      value: 720
       objectReference: {fileID: 0}
+    - target: {fileID: 603282847582561450, guid: 938d09703861d4945a605d940373eccc, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 3801778076353282112, guid: 938d09703861d4945a605d940373eccc, type: 3}
       propertyPath: walk_speed
       value: 6
@@ -12009,6 +12026,18 @@ PrefabInstance:
       propertyPath: self
       value: 
       objectReference: {fileID: 1592006862}
+    - target: {fileID: 9065879485481583304, guid: 938d09703861d4945a605d940373eccc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065879485481583304, guid: 938d09703861d4945a605d940373eccc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065879485481583304, guid: 938d09703861d4945a605d940373eccc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 938d09703861d4945a605d940373eccc, type: 3}
 --- !u!4 &3911628858061649579
@@ -14332,7 +14361,7 @@ GameObject:
   - component: {fileID: 7565390107651084448}
   - component: {fileID: 2746124466046269987}
   - component: {fileID: 1250273772}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wall__7__1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14351,7 +14380,7 @@ GameObject:
   - component: {fileID: 2847388838131754390}
   - component: {fileID: 1856802764717982194}
   - component: {fileID: 750138872}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wall__20__1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -117,6 +117,7 @@ MonoBehaviour:
   jump_force: 330
   fixed_x_rotation: 0
   fixed_y_rotation: 0
+  movement_overall: {x: 0, y: 0, z: 0}
   groundChecker: {fileID: 2531690716076219462}
   groundLayer:
     serializedVersion: 2
@@ -223,7 +224,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 447
+    m_Bits: 2495
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

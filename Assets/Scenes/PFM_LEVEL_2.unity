@@ -2693,6 +2693,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2531690715010592430, guid: fdb744d62d678fe4281260e873583576, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 447
+      objectReference: {fileID: 0}
     - target: {fileID: 2531690715884637040, guid: fdb744d62d678fe4281260e873583576, type: 3}
       propertyPath: m_Name
       value: AdvancedPlayer1
@@ -13184,7 +13188,7 @@ GameObject:
   - component: {fileID: 3494059199914892275}
   - component: {fileID: 8582681535194788979}
   - component: {fileID: 1581266169}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wall__3_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15600,7 +15604,7 @@ GameObject:
   - component: {fileID: 114258051472357055}
   - component: {fileID: 883838824104075847}
   - component: {fileID: 55738829}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wall__19_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24827,7 +24831,7 @@ GameObject:
   - component: {fileID: 3553551548984255228}
   - component: {fileID: 8358602613157965811}
   - component: {fileID: 1897619102}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wall__5_
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24908,7 +24912,7 @@ GameObject:
   - component: {fileID: 840367576691166347}
   - component: {fileID: 5833796879448646146}
   - component: {fileID: 1373575925}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Wall__4_
   m_TagString: Untagged
   m_Icon: {fileID: 0}

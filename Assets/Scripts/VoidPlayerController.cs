@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class VoidPlayerController : MonoBehaviour
 {
-
     public float walk_speed = 1.0f;
     public float jump_force = 300.0f;
 
@@ -44,5 +43,4 @@ public class PlayerController : MonoBehaviour
         transform.rotation = Quaternion.Euler(new Vector3 (fixed_x_rotation, fixed_y_rotation, 0.0f));
         
     }
-
 }

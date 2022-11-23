@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PFM_LEVEL_6.unity
     guid: 6f1097d95d9a15c41ad097274fc3c24e
+  - enabled: 1
+    path: Assets/Scenes/PFM_Shutdown.unity
+    guid: d050d2580bf087d42a29b95ee20c06d0
   m_configObjects: {}

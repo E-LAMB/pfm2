@@ -116,6 +116,7 @@ MonoBehaviour:
   jump_force: 330
   fixed_x_rotation: 0
   fixed_y_rotation: 0
+  movement_overall: {x: 0, y: 0, z: 0}
   groundChecker: {fileID: 3801778077946390662}
   groundLayer:
     serializedVersion: 2
@@ -200,7 +201,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 447
+    m_Bits: 2495
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -332,22 +333,6 @@ PrefabInstance:
     - target: {fileID: 804982122404653833, guid: 19dfe0f0ae6b61341a655b8a40266110, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 804982122404653833, guid: 19dfe0f0ae6b61341a655b8a40266110, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 804982122404653833, guid: 19dfe0f0ae6b61341a655b8a40266110, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 804982122404653833, guid: 19dfe0f0ae6b61341a655b8a40266110, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 804982122404653833, guid: 19dfe0f0ae6b61341a655b8a40266110, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 804982122404653833, guid: 19dfe0f0ae6b61341a655b8a40266110, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
