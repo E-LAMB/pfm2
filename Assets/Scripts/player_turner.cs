@@ -5,21 +5,25 @@ using UnityEngine;
 public class player_turner : MonoBehaviour
 {
     
-    public float directional_offset;
+    public float speed;
+    public float rotationSpeed;
 
-    public float direction; // In an 8 point compass
-    public bool direction_found; // We have found the player's direction
+    void Start()
+    {
 
-    public Transform self;
+    }
 
-    // Update is called once per frame
     void Update()
     {
 
-        
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
+        Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
 
-        
+        Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+
 
     }
 }

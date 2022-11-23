@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     bool isOnGround;
 
+    public Vector3 movement_overall;
+
     public GameObject groundChecker;
     public LayerMask groundLayer;
 
