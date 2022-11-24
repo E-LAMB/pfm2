@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311912, g: 0.3807398, b: 0.3587272, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -866,8 +866,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431893159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100, y: 90, z: 0}
-  m_LocalScale: {x: 1, y: 200, z: 500}
+  m_LocalPosition: {x: 100, y: 4990, z: 0}
+  m_LocalScale: {x: 1, y: 10000, z: 500}
   m_Children: []
   m_Father: {fileID: 1021501686}
   m_RootOrder: 6
@@ -1334,8 +1334,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715464476}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -100, y: 90, z: 0}
-  m_LocalScale: {x: 1, y: 200, z: 500}
+  m_LocalPosition: {x: -100, y: 4990, z: 0}
+  m_LocalScale: {x: 1, y: 10000, z: 500}
   m_Children: []
   m_Father: {fileID: 1021501686}
   m_RootOrder: 2
@@ -1429,8 +1429,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841432798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 90, z: -100}
-  m_LocalScale: {x: 500, y: 200, z: 1}
+  m_LocalPosition: {x: 0, y: 4990, z: -100}
+  m_LocalScale: {x: 500, y: 10000, z: 1}
   m_Children: []
   m_Father: {fileID: 1021501686}
   m_RootOrder: 4
@@ -1444,7 +1444,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1479505915551704148, guid: 222dfe21022e9ed47b12df2269057f79, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1479505915551704148, guid: 222dfe21022e9ed47b12df2269057f79, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1617,7 +1617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9187277177237130274, guid: d4d14ff99b7bc8a42800c6faad07c682, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 100
+      value: 6600
       objectReference: {fileID: 0}
     - target: {fileID: 9187277177237130274, guid: d4d14ff99b7bc8a42800c6faad07c682, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1751,7 +1751,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 1
-  prewarm: 1
+  prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -1759,7 +1759,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0
+    scalar: 2
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -6664,7 +6664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6603023295432149183, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6603023295432149183, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_LocalScale.x
@@ -6839,8 +6839,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731910694}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 90, z: 100}
-  m_LocalScale: {x: 500, y: 200, z: 1}
+  m_LocalPosition: {x: 0, y: 4990, z: 100}
+  m_LocalScale: {x: 500, y: 10000, z: 1}
   m_Children: []
   m_Father: {fileID: 1021501686}
   m_RootOrder: 3
