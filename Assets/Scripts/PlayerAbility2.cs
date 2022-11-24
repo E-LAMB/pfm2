@@ -27,13 +27,13 @@ public class PlayerAbility2 : MonoBehaviour
         isOnGround = Physics.CheckSphere(groundChecker.transform.position, 0.1f, groundLayer);
         should_be_active = activator.GetComponent<PermaButtonActivator>().RequestState();
 
-        if (isOnGround == true && Input.GetKeyDown(KeyCode.Q))
+        if (isOnGround == true && Input.GetKeyDown(KeyCode.Mouse0))
         {
             clone_position = transform.position;
             clone.GetComponent<Teleport>().Warp(transform.position);
         }
 
-        if (isOnGround == true && Input.GetKeyDown(KeyCode.E) && should_be_active == true)
+        if (isOnGround == true && Input.GetKeyDown(KeyCode.Mouse1) && should_be_active == true)
         {
             transform.position = clone_position;
         }

@@ -6488,9 +6488,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1223022471}
     m_Modifications:
+    - target: {fileID: 6603023293700288713, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.108
+      objectReference: {fileID: 0}
     - target: {fileID: 6603023293700288714, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_text
-      value: "Hello Subject, \n\nPress E to teleport back to your clone"
+      value: "Hello Subject, \n\nRight click to teleport to your clone."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6603023293700288714, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6603023293700288714, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6603023295432149182, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_Name
@@ -6923,9 +6935,9 @@ Transform:
   - {fileID: 1341159088}
   - {fileID: 1979128462}
   - {fileID: 167018439}
+  - {fileID: 1474589990063297963}
   - {fileID: 118205169}
   - {fileID: 1248346229}
-  - {fileID: 1474589990063297963}
   - {fileID: 1537760128}
   - {fileID: 1934968208}
   - {fileID: 1692151096}
@@ -18182,7 +18194,7 @@ Transform:
   m_Children:
   - {fileID: 1159721541}
   m_Father: {fileID: 854197944}
-  m_RootOrder: 27
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 57.774}
 --- !u!33 &1493283258764563626
 MeshFilter:

@@ -24,7 +24,7 @@ public class PermaButtonActivator : MonoBehaviour
 
         is_close = Physics.CheckSphere(playerChecker.transform.position, distance_required, playerLayer);
 
-        if (Input.GetKeyDown(KeyCode.F) && is_close == true)
+        if (Input.GetKeyDown(KeyCode.E) && is_close == true)
         {
             active_state = true;
         }
