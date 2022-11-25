@@ -1288,6 +1288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button
       objectReference: {fileID: 0}
+    - target: {fileID: 1478157639872711086, guid: 2c40213b95a405841a3d1f4c03a0f96b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e23f12eec54e134ba1b2b10aafb7195, type: 2}
     - target: {fileID: 6036428565521584433, guid: 2c40213b95a405841a3d1f4c03a0f96b, type: 3}
       propertyPath: m_Name
       value: HasActivator

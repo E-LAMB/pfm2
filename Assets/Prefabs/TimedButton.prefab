@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a5c058c9e76e86b419aa560a0b720307, type: 2}
+  - {fileID: 2100000, guid: 7e23f12eec54e134ba1b2b10aafb7195, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
   is_inverted: 0
   player: {fileID: 2502385301614146979}
   activator: {fileID: 6919759565706933113}
-  activator_type: 1
+  activator_type: 4
 --- !u!1 &4508463755065192009
 GameObject:
   m_ObjectHideFlags: 0
