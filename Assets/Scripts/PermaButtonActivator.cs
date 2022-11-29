@@ -18,6 +18,9 @@ public class PermaButtonActivator : MonoBehaviour
 
     bool is_close;
 
+    public AudioSource used_sound_player;
+    public AudioClip used_sound;
+
     // Update is called once per frame
     void Update()
     {
@@ -27,6 +30,7 @@ public class PermaButtonActivator : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && is_close == true)
         {
             active_state = true;
+            used_sound_player.PlayOneShot(used_sound);
         }
 
         if (is_close == true && active_state == false)

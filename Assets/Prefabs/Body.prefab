@@ -177,6 +177,8 @@ GameObject:
   m_Component:
   - component: {fileID: 469473512435853798}
   - component: {fileID: 3254167457971696581}
+  - component: {fileID: 1296913345789824376}
+  - component: {fileID: 8424710347664194449}
   m_Layer: 0
   m_Name: Walk
   m_TagString: Untagged
@@ -212,6 +214,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f17ed2d528605b46af295aa060ef77a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  self: {fileID: 469473512435853798}
+  direction: {x: 0, y: 0, z: 0}
+--- !u!95 &1296913345789824376
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993104193365603164}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4cb74d71f2e6bed428a1c5c8bb034716, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!81 &8424710347664194449
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993104193365603164}
+  m_Enabled: 1
 --- !u!1 &1012287704594911239
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,6 +21,9 @@ public class TimedButtonActivator : MonoBehaviour
     public float current_duration = -1.0f;
     public float maximum_duration = 3.0f;
 
+    public AudioSource used_sound_player;
+    public AudioClip used_sound;
+
     // Update is called once per frame
     void Update()
     {
@@ -30,6 +33,7 @@ public class TimedButtonActivator : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && is_close == true && active_state == false)
         {
             current_duration = maximum_duration;
+            used_sound_player.PlayOneShot(used_sound);
         }
 
         if (current_duration > 0f)
