@@ -11,16 +11,19 @@ public class StandingButtonActivator : MonoBehaviour
 
     public GameObject playerChecker;
     public LayerMask playerLayer;
+    public LayerMask cloneLayer;
 
-    bool is_close;
+    bool is_close_player;
+    bool is_close_clone;
 
     // Update is called once per frame
     void Update()
     {
 
-        is_close = Physics.CheckSphere(playerChecker.transform.position, 0.1f, playerLayer);
+        is_close_player = Physics.CheckSphere(playerChecker.transform.position, 0.1f, playerLayer);
+        is_close_clone = Physics.CheckSphere(playerChecker.transform.position, 0.1f, cloneLayer);
 
-        if (is_close)
+        if (is_close_player || is_close_clone)
         {
             active_state = true;
         }
