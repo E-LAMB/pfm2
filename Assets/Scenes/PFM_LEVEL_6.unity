@@ -289,34 +289,27 @@ MonoBehaviour:
 
     Alex
 
-
+    Nathan
 
 
     Thank
-    you to my playtesters:
-
-    ~ Kody
-
-    ~ Jack
-
-    ~ Kristine
-
-    ~ Ashton
-
-    ~
-    Radeah
+    you to my playtesters!
 
 
     And everyone else!
 
 
-    Thank you for playtesting!
+
+
+    Special thanks to:
+
+    The
+    Watcher.
 
 
 
 
-    Thank
-    YOU for
+    Thank YOU for
 
     participating in PFM...
 
@@ -326,7 +319,8 @@ MonoBehaviour:
 
 
 
-    Project File Managment
+    Project
+    File Managment
 
 
 '
@@ -1040,7 +1034,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1652662843}
         m_TargetAssemblyTypeName: MenuButtons, Assembly-CSharp
-        m_MethodName: loadGame
+        m_MethodName: load_scene_0
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1117,7 +1111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b08550c3cbbb840956301cdf7b6cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadtarget: 0
 --- !u!4 &1652662844
 Transform:
   m_ObjectHideFlags: 0
