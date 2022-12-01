@@ -46,7 +46,7 @@ public class InvisibleMaterial : MonoBehaviour
             flicker_material.color = Color.black;
         } else
         {
-            transparency_colour = new Vector4(0,0,0,-1);
+            transparency_colour = new Vector4(0,0,0,0.3f);
             flicker_material.color = transparency_colour;
         }
     }
