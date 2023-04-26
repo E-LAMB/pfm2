@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class PlayerController : MonoBehaviour
     bool isCurrentlyMoving;
 
     public float movement_value;
+
+    public float unload_time;
 
     public Vector3 movement_overall;
 
@@ -35,6 +38,16 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (unload_time > 15f)
+        {
+            SceneManager.LoadScene(0);
+        }
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            unload_time += Time.deltaTime;
+        }
 
         isOnGround = Physics.CheckSphere(groundChecker.transform.position, 0.1f, groundLayer);
 
