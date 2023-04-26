@@ -23,13 +23,13 @@ public class PlayerAbility3 : MonoBehaviour
     {
         isOnGround = Physics.CheckSphere(groundChecker.transform.position, 0.1f, groundLayer);
 
-        if (isOnGround == true && Input.GetKeyDown(KeyCode.Mouse0))
+        if (isOnGround == true && Input.GetKeyDown(KeyCode.Alpha1))
         {
             clone_position = transform.position;
             clone.GetComponent<Teleport>().Warp(transform.position);
         }
 
-        if (isOnGround == true && Input.GetKeyDown(KeyCode.Mouse1))
+        if (isOnGround == true && Input.GetKeyDown(KeyCode.Alpha5))
         {
             transform.position = clone_position;
         }

@@ -23,12 +23,13 @@ public class Restarter : MonoBehaviour
             load_in_cooldown = load_in_cooldown + Time.deltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && load_in_cooldown > 4)
+        if (Input.GetKeyDown(KeyCode.C) && load_in_cooldown > 4)
         {
             count_up = true;
+            load_out_timer = 200f;
         }
 
-        if (Input.GetKeyUp(KeyCode.R))
+        if (Input.GetKeyUp(KeyCode.C))
         {
             count_up = false;
             load_out_timer = 0;

@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
 
         isOnGround = Physics.CheckSphere(groundChecker.transform.position, 0.1f, groundLayer);
 
-        if (isOnGround == true && Input.GetKeyDown(KeyCode.Space))
+        if (isOnGround == true && Input.GetKeyDown(KeyCode.V))
         {
             playerRigidbody.AddForce(transform.up * jump_force);
         }

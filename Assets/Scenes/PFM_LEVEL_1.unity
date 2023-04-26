@@ -472,15 +472,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6603023293700288713, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.228
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6603023293700288714, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_text
       value: 'Hello Subject,
 
 
-        Please locate the button and press E to activate
-        it.'
+        Please find the button, And press the red
+        button indicated to activate.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6603023293700288714, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6603023293700288714, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6603023295432149182, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_Name
@@ -633,6 +641,102 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &295268370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 295268374}
+  - component: {fileID: 295268373}
+  - component: {fileID: 295268372}
+  - component: {fileID: 295268371}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &295268371
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295268370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &295268372
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295268370}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6f6dc37772d9d58448b78f8077ceb48a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &295268373
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295268370}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &295268374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295268370}
+  m_LocalRotation: {x: 0.07934858, y: -0.70264065, z: 0.70264065, w: 0.079348154}
+  m_LocalPosition: {x: 33.29, y: 5.8, z: 6.28}
+  m_LocalScale: {x: 0.5994769, y: 0.4406304, z: 0.4406304}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 167.114}
 --- !u!4 &295942782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1337152273722876387, guid: 389294d08fb48594b86f61f18daaf5c8, type: 3}
@@ -6610,7 +6714,8 @@ PrefabInstance:
       value: 'Hello Subject,
 
 
-        Please use the WASD keys to move.'
+        Please use the Joystick infront of you to
+        move.'
       objectReference: {fileID: 0}
     - target: {fileID: 6603023293700288714, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_fontSize
@@ -7471,6 +7576,102 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1235937290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235937294}
+  - component: {fileID: 1235937293}
+  - component: {fileID: 1235937292}
+  - component: {fileID: 1235937291}
+  m_Layer: 0
+  m_Name: Plane (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1235937291
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235937290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1235937292
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235937290}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 99e437653c13a0a47bead96ecfd8200d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1235937293
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235937290}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1235937294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235937290}
+  m_LocalRotation: {x: -0.010557309, y: -0.7070281, z: 0.7070279, w: -0.010557745}
+  m_LocalPosition: {x: 61.4, y: 3.22, z: 1.63}
+  m_LocalScale: {x: 0.5994769, y: 0.4406304, z: 0.4406304}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 181.711}
 --- !u!65 &1240815303
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15410,12 +15611,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6603023293700288713, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.21
+      objectReference: {fileID: 0}
     - target: {fileID: 6603023293700288714, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_text
       value: 'Hello Subject,
 
 
-        Please use your space bar to jump.'
+        Please use the red button indicated to JUMP'
       objectReference: {fileID: 0}
     - target: {fileID: 6603023295432149182, guid: 83cbc348ba2e7b649a9ecfcfb5995ef8, type: 3}
       propertyPath: m_Name

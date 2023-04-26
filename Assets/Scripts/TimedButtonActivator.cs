@@ -30,7 +30,7 @@ public class TimedButtonActivator : MonoBehaviour
 
         is_close = Physics.CheckSphere(playerChecker.transform.position, distance_required, playerLayer);
 
-        if (Input.GetKeyDown(KeyCode.E) && is_close == true && active_state == false)
+        if (Input.GetKeyDown(KeyCode.X) && is_close == true && active_state == false)
         {
             current_duration = maximum_duration;
             used_sound_player.PlayOneShot(used_sound);
